@@ -6,8 +6,10 @@
 
 class Team_Manager
 {
-public:
+public: 
+
 	Team GenerateNewTeam(vector <Player> Players, vector <Hero> Heroes, string Team_Name);
+	Team GenerateNewTeam(vector <Team_Part> Team_Parts, string Team_Name);
 	void GetTeamInfo(Team team);
 
 };

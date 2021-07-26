@@ -3,6 +3,7 @@
 
 class Session
 {
+public: 
 
 	bool Winner; 
 	Team Team_One; 

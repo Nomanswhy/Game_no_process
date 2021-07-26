@@ -9,10 +9,10 @@ bool Session::Calculate_Winner(Team Team_One, Team Team_Two) {
 	this->Team_One = Team_One;
 	this->Team_Two = Team_Two;
 
-	int team_one_HP;
-	int team_one_Damage;
-	int team_two_HP;
-	int team_two_Damage;
+	int team_one_HP = 0;
+	int team_one_Damage = 0;
+	int team_two_HP = 0;
+	int team_two_Damage = 0;
 
 	for (int i = 0; i < 5; i++) {
 

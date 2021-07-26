@@ -27,6 +27,18 @@ Team Team_Manager::GenerateNewTeam(vector <Player> Players, vector <Hero> Heroes
 
 }
 
+Team Team_Manager::GenerateNewTeam(vector <Team_Part> Team_Parts, string Team_Name) {
+
+	Team team;
+    
+	team.Connected = Team_Parts;
+
+	team.Team_Name = Team_Name;
+
+	return team;
+
+}
+
 void Team_Manager::GetTeamInfo(Team team) {
 
 	cout << team.Team_Name << endl;
